@@ -14,7 +14,7 @@
             Console.WriteLine("Working in: " + Environment.CurrentDirectory);
             Console.WriteLine(new string('=', 40));
             Console.WriteLine();
-
+            string worldOfWarcraft = @"C:\Visual Studio\Github\FamilyStore\src";
 
             var oldName = "AspNetCoreTemplate";
             while (string.IsNullOrWhiteSpace(oldName))
@@ -31,15 +31,15 @@
             }
 
             Console.WriteLine("Renaming directories...");
-            RenameDirectories(Environment.CurrentDirectory, oldName, newName);
+            RenameDirectories(worldOfWarcraft, oldName, newName);
             Console.WriteLine("Directories renamed.");
 
             Console.WriteLine("Renaming files...");
-            RenameFiles(Environment.CurrentDirectory, oldName, newName);
+            RenameFiles(worldOfWarcraft, oldName, newName);
             Console.WriteLine("Files renamed.");
 
             Console.WriteLine("Renaming file contents...");
-            RenameFileContents(Environment.CurrentDirectory, oldName, newName);
+            RenameFileContents(worldOfWarcraft, oldName, newName);
             Console.WriteLine("File contents renamed.");
 
             Console.WriteLine("Done!");

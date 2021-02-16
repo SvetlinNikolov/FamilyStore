@@ -5,14 +5,14 @@
     using System.IO;
     using System.Threading.Tasks;
 
-    using AspNetCoreTemplate.Data;
-    using AspNetCoreTemplate.Data.Common;
-    using AspNetCoreTemplate.Data.Common.Repositories;
-    using AspNetCoreTemplate.Data.Models;
-    using AspNetCoreTemplate.Data.Repositories;
-    using AspNetCoreTemplate.Data.Seeding;
-    using AspNetCoreTemplate.Services.Data;
-    using AspNetCoreTemplate.Services.Messaging;
+    using FamilyStore.Data;
+    using FamilyStore.Data.Common;
+    using FamilyStore.Data.Common.Repositories;
+    using FamilyStore.Data.Models;
+    using FamilyStore.Data.Repositories;
+    using FamilyStore.Data.Seeding;
+    using FamilyStore.Services.Data;
+    using FamilyStore.Services.Messaging;
 
     using CommandLine;
 
